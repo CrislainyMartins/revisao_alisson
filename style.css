@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: grey;
+    width: 900px;
+    height:100% ;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.geral{
+    background-color: aliceblue;
+    width: 100%;
+    padding: 10px;
+    position: absolute;
+}
+
+header{
+    background-color: rgb(14, 110, 194);
+    width: 100%;
+    height: 150px;
+    padding: 10px;
+    border: 2px solid black;
+    
+
+}
+
+.conteudo1{
+    background-color: rgb(136, 170, 199);
+    width: 100%;
+    height: 150px;
+    padding: 10px;
+    margin-top: 10px;
+    border: 2px solid black;
+}
+
+.duascolunas{
+    display: flex;
+   
+}
+
+.coluna1{
+    background-color: rgb(11, 122, 220);
+    width: 500px;
+    height: 300px;
+    padding: 10px;
+    margin-top: 10px;
+    border: 2px solid black;
+    
+
+}
+
+.coluna2{
+    background-color: rgb(10, 134, 235);
+    width: 500px;
+    height: 300px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 5px;
+    border: 2px solid black;
+}
+
+.conteudo2{
+    background-color: rgb(136, 170, 199);
+    width: 100%;
+    height: 150px;
+    padding: 10px;
+    margin-top: 10px;
+    border: 2px solid black;
+
+}
+
+.duascolunas2{
+    display: flex;
+   
+}
+
+.coluna3{
+    background-color: rgb(11, 122, 220);
+    width: 500px;
+    height: 300px;
+    padding: 10px;
+    margin-top: 10px;
+    border: 2px solid black;
+    
+
+}
+
+.coluna4{
+    background-color: rgb(10, 134, 235);
+    width: 500px;
+    height: 300px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 5px;
+    border: 2px solid black;
+}
+
+footer{
+    background-color: rgb(136, 170, 199);
+    width: 100%;
+    height: 150px;
+    padding: 10px;
+    margin-top: 10px;
+    border: 2px solid black;
+
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+    padding-top: 30px;
+    margin-left: 300px;
+    
+}
+
+li{
+    margin: 20px;
+    font-family: Jazz LET, fantasy;
+    font-size: 15px;
+    border: 2px solid white;
+    border-radius: 50px;
+    padding: 7px;
+}
+
+h2{
+    font-family: Impact, fantasy;
+    color:#008080 ;
+}
+
+h2 span{
+    font-size: 15px;
+    color: #20B2AA;
+    
+
+}
+
+
+
+
+
+
+
